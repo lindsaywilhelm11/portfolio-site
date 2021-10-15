@@ -1,5 +1,5 @@
 import React from 'react'
-import social from '../images/social.jpeg';
+import homePhoto from '../images/homePhoto.jpeg';
 import Nav from './Nav';
 import Footer from './Footer';
 
@@ -7,11 +7,11 @@ function Contact() {
     return (
         <div>
             <Nav />
-        <div>
-            <h2>The best way to reach me is through email</h2>
-                <p>Let's chat! Click the image below</p>
+        <div className="contact-body">
+                <h5>Let's chat!</h5>
+                <p className="contact-paragraph">Click the image below</p>
                 <a href="mailto:lindsaywilhelm11@gmail.com">
-                    <img src={social} alt="Social icons" className="contact-img" />
+                    <img src={homePhoto} alt="Lindsay Wilhelm" className="contact-img"/>
                 </a>
         </div>
             <Footer />

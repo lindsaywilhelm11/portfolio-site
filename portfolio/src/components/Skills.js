@@ -11,10 +11,11 @@ function Skills() {
         {type: "Docker", level: 45},
       ];
       const colors = {
-        "bar": "#0F4C75",
+        "bar": "#595B83",
+        "background": "#000",
         "title": {
-          "text": "fff",
-          "background": "#5F7094"
+          "text": "#F8F8F8",
+          "background": "#333456"
         }
       }
     return (
