@@ -6,8 +6,7 @@ function Nav() {
 
     return (
         <div className='navLink'>
-            <ul>
-                <p>Lindsay Wilhelm</p>
+            <ul>    
                 <Link className="navbar" to="/">Home</Link>
                 <Link className="navbar" to="/about">About</Link>
                 <Link className="navbar" to="/resume">Resume</Link>
